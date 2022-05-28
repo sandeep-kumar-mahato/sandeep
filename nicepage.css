@@ -37343,7 +37343,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: 10px;
-    margin-right: 11px;
+    margin-right: 0;
   }
 
   .u-header .u-image-1 {
@@ -37351,7 +37351,6 @@ a.u-link.u-text-hover-grey-90:hover {
     height: 43px;
     margin-top: -40px;
     margin-bottom: 7px;
-    margin-left: 11px;
   }
 }
  .u-footer {
