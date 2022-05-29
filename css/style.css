@@ -94,7 +94,7 @@ p {
 }
 
 .social-media{
-    margin-left: 24rem;
+    margin-left: 4rem;
 }
 
 .social-media i {
@@ -127,6 +127,7 @@ p {
     margin: 0 auto 0;
     border-radius: 25px;
     transition-duration: 1s;
+    margin-left: 30rem;
 }
 
 .btn2:hover {
