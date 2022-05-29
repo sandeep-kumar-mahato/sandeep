@@ -156,6 +156,10 @@ p {
         margin-left: 4rem;
         font-size: 40px;
     }
+    #menu2 {
+        margin-left: 1rem;
+        font-size: 40px;
+    }
 
     a {
         color: rgb(59, 3, 70);
