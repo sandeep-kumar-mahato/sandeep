@@ -120,8 +120,11 @@ p{
     border-radius: 5px;
 }
 @media (max-width:700px){
+    .logo h1{
+        margin-left: -1.5rem;
+    }
     .fab{
-        padding-left: 24px;
+        padding-left: 26px;
     }
     #roww{
         margin-top: 0rem ;
@@ -141,7 +144,10 @@ p{
     }
     #menu{
         font-size: 4ex;
-        margin-left: 5rem;
+        margin-left: 7rem;
+    }
+    #menu2{
+        font-size: 4ex;
     }
     nav ul li{
         display: block;
@@ -150,7 +156,7 @@ p{
     }
     nav{
         position: fixed;
-        background: #f44336;
+        background: radial-gradient(#fff, #f09b9b);
         height: 100vh;
         width: 300px;
         top: 0;
