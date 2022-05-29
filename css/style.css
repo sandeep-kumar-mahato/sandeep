@@ -6,9 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-header{
+.container{
     background: radial-gradient(#fff, #f09b9b);
     height: 100vh;
+    padding: 24px;
 }
 .navbar{
     display: flex;
@@ -57,17 +58,12 @@ p{
     text-align: center;
     font-size: 24px;
 }
-.container{
-    max-width: 1300px;
-    margin: auto;
-    padding-left: 25px;
-    padding-right: 25px;
-}
 .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 48px;
 }
 #roww{
     margin-top: 3rem ;
@@ -79,7 +75,6 @@ p{
 .col-2 h1{
     font-size: 50px;
     line-height: 60px;
-    margin: 25px 0;
 }
 /* .container2{
     width: 80%;
