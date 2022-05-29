@@ -94,18 +94,16 @@ p {
 }
 
 .social-media {
-    margin-left: 6rem;
+    margin-left: 3rem;
 }
 
 .social-media i {
     color: #fff;
-    width: 60px;
-    height: 60px;
-    font-size: 32px;
+    font-size: 37px;
     background: linear-gradient(45deg, green, yellow);
-    border-radius: 50%;
-    margin: 25px 7px;
-    padding: 13px;
+    border-radius: 20%;
+    padding: 1rem;
+    margin: 0 1rem;
 }
 
 .social-media i:hover {
@@ -127,7 +125,7 @@ p {
     margin: 0 auto 0;
     border-radius: 25px;
     transition-duration: 1s;
-    margin-left: 30rem;
+    margin-left: 24rem;
 }
 
 .btn2:hover {
@@ -218,9 +216,7 @@ p {
     }
 
     .social-media {
-        margin-top: -1.5rem;
         text-align: center;
-        display: block;
     }
 
     .social-media {
@@ -228,16 +224,14 @@ p {
     }
 
     .social-media i {
-        color: #fff;
-        width: 30px;
-        height: 30px;
-        font-size: 12px;
-        margin: 25px 1px;
-        padding: 8px;
+        font-size: 18px;
+        padding: 1rem;
+        margin: 1rem 1rem;
     }
 
     .btn2 {
         font-size: 20px;
         margin-left: 1rem;
+        letter-spacing: 1rem;
     }
 }
