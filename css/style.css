@@ -93,7 +93,7 @@ p {
     line-height: 60px;
 }
 
-.social-media{
+.social-media {
     margin-left: 6rem;
 }
 
@@ -135,12 +135,25 @@ p {
 }
 
 @media (max-width:700px) {
+    .container {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 14px;
+    }
+
     .logo h1 {
-        margin-left: -1.5rem;
+        margin-left: 0.5rem;
     }
 
     .fab {
-        padding-left: 26px;
+        margin: 12px 12px;
+    }
+
+    #menu {
+        margin-left: 4rem;
+        font-size: 40px;
     }
 
     a {
@@ -148,15 +161,6 @@ p {
         font-size: 24px;
         line-height: 3rem;
         letter-spacing: 1px;
-    }
-
-    #menu {
-        font-size: 4ex;
-        margin-left: 7rem;
-    }
-
-    #menu2 {
-        font-size: 4ex;
     }
 
     nav ul li {
@@ -169,7 +173,7 @@ p {
         position: fixed;
         background: radial-gradient(#fff, #f09b9b);
         height: 100vh;
-        width: 300px;
+        width: 200px;
         top: 0;
         right: -200px;
         text-align: left;
@@ -184,10 +188,10 @@ p {
         cursor: pointer;
     }
 
-    nav ul {
-        padding: 1px;
+    .row {
+        padding: 15px;
     }
-    
+
     #roww {
         margin-top: 0rem;
     }
@@ -195,24 +199,30 @@ p {
     .col-2 {
         margin-left: -2rem;
     }
+
     .col-2 h1 {
         font-size: 15px;
         line-height: 30px;
     }
 
-    .front img{
-        width: 100px;
-    }
-    
-    .social-media {
-        margin-top: -1.5rem;
-        
+    p {
+        text-align: left;
+        padding-top: 24px;
     }
 
-    .social-media{
+    .front img {
+        width: 330px;
+    }
+
+    .social-media {
+        margin-top: -1.5rem;
+        text-align: center;
+    }
+
+    .social-media {
         margin-left: 0rem;
     }
-    
+
     .social-media i {
         color: #fff;
         width: 30px;
