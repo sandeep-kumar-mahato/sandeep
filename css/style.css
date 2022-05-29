@@ -105,6 +105,7 @@ p{
 }
 .social-media a{
     text-decoration: none;
+    text-align: center;
 }
 .btn2{
     background: linear-gradient(to right, rgb(46, 85, 97), rgb(95, 164, 187));
