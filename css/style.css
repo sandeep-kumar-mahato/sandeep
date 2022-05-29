@@ -94,7 +94,7 @@ p {
 }
 
 .social-media{
-    margin-left: 4rem;
+    margin-left: 6rem;
 }
 
 .social-media i {
@@ -104,7 +104,7 @@ p {
     font-size: 32px;
     background: linear-gradient(45deg, green, yellow);
     border-radius: 50%;
-    margin: 25px 6px;
+    margin: 25px 7px;
     padding: 13px;
 }
 
