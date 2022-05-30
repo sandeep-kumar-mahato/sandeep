@@ -95,6 +95,7 @@ p {
 
 .social-media {
     margin-left: 3rem;
+    display: flex;
 }
 
 .social-media i {
@@ -221,9 +222,7 @@ p {
 
     .social-media {
         text-align: center;
-    }
-
-    .social-media {
+        display: block;
         margin-left: 0rem;
     }
 
@@ -233,10 +232,15 @@ p {
         margin: 1rem 1rem;
     }
 
+    .btn{
+        margin-top: 1rem;
+    }
+
     .btn2 {
         font-size: 20px;
-        margin-left: 1rem;
-        letter-spacing: 1rem;
+        margin-left: 0rem;
+        letter-spacing: 0.5rem;
         margin-top: 1rem;
+        padding: 8px 97px;
     }
 }
