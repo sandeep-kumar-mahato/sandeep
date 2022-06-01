@@ -71,12 +71,6 @@ nav ul li:hover::after {
     display: none;
 }
 
-.col-2 p {
-    color: #555;
-    letter-spacing: 1rem;
-    text-align: center;
-    font-size: 24px;
-}
 
 .row {
     display: flex;
@@ -102,6 +96,42 @@ nav ul li:hover::after {
 .col-2 h1 {
     font-size: 50px;
     line-height: 60px;
+}
+
+.col-2 p {
+    color: #555;
+    letter-spacing: 1rem;
+    text-align: center;
+    font-size: 24px;
+}
+
+.animate
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .social-media {
@@ -236,23 +266,23 @@ nav ul li:hover::after {
     .social-media {
         text-align: center;
         display: block;
-        margin-left: 0rem;
+        margin-left: 0;
     }
 
     .social-media i {
-        font-size: 18px;
-        padding: 0.2rem;
-        margin: 1rem 1rem;
+        font-size: 32px;
+        margin: 0;
+        padding: 0 12px;
     }
 
     .btn{
-        margin-top: 1rem;
+        margin: 1rem 0;
     }
 
     .btn2 {
         font-size: 20px;
         margin-left: 0rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0.8rem;
         margin-top: 1rem;
         padding: 8px 97px;
     }
@@ -293,7 +323,7 @@ nav ul li:hover::after {
 
 @media (max-width: 1000px){
     #About{
-        padding: 45px 0px;
+        padding: 17px 0px;
     }
 
     #About h1{
@@ -305,7 +335,7 @@ nav ul li:hover::after {
     .container2{
         margin: 0;
         display: block;
-        padding: 1px 45px;
+        padding: 1px 40px;
     }
     .sec-1{
         padding: 0px;
@@ -318,7 +348,7 @@ nav ul li:hover::after {
     
     .sec-1 p{
         font-size: 24px;
-        margin-top: -1rem;
+        margin: 1rem 0;
         font-family: 'Nunito', sans-serif;
         letter-spacing: 0;
         font-size: 15px;
