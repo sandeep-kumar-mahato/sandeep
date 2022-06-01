@@ -246,6 +246,7 @@ nav ul li:hover::after {
     .col-2 h1 {
         font-size: 25px;
         line-height: 32px;
+        margin-top: 32px;
     }
 
     .col-2 p {
