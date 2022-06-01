@@ -17,7 +17,11 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px 5rem;
+    padding: 0px 5rem;
+}
+
+.logo img{
+    height: 80px;
 }
 
 nav {
@@ -83,6 +87,10 @@ p {
     margin-top: 3rem;
 }
 
+.front img {
+    width: 330px;
+}
+
 .col-2 {
     flex-basis: 50%;
     min-width: 300px;
@@ -94,12 +102,12 @@ p {
 }
 
 .social-media {
-    margin-left: 3rem;
+    margin-left: 5rem;
     display: flex;
 }
 
 .social-media i {
-    font-size: 24px;
+    font-size: 30px;
     color: linear-gradient(45deg, green, yellow);
     border-radius: 20%;
     padding: 0.5rem;
@@ -144,8 +152,8 @@ p {
         justify-content: space-between;
     }
 
-    .logo h1 {
-        margin-left: 0.5rem;
+    .logo img {
+        height: 60px;
     }
 
     .fab {
@@ -216,7 +224,8 @@ p {
     }
 
     .front img {
-        width: 330px;
+        height: 189px;
+        width: 191px;
         margin-top: 1rem;
     }
 
@@ -243,4 +252,23 @@ p {
         margin-top: 1rem;
         padding: 8px 97px;
     }
+}
+
+#About{
+    height: 80vh;
+    background-color: #f09b9b;
+    padding: 24px;
+}
+
+#Skills{
+    height: 80vh;
+    background-color: #e1a3a3;
+}
+#Projects{
+    height: 80vh;
+    background-color: #f09b9b;
+}
+#Contact{
+    height: 80vh;
+    background-color: #c78e8e;
 }
