@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -68,7 +70,7 @@ nav ul li:hover::after {
     display: none;
 }
 
-p {
+.col-2 p {
     color: #555;
     letter-spacing: 1rem;
     text-align: center;
@@ -255,9 +257,34 @@ p {
 }
 
 #About{
-    height: 80vh;
     background-color: #f09b9b;
+    height: 80vh;
     padding: 24px;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+}
+#About h1{
+    font-size: 57px;
+}
+
+.container2{
+    margin: 2rem;
+    display: flex;
+}
+.sec-1{
+    padding: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.sec-1 h2{
+    font-size: 48px;
+    margin-top: 5rem;
+}
+
+.sec-1 p{
+    font-size: 24px;
+    margin-top: 5rem;
 }
 
 #Skills{
