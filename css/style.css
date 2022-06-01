@@ -288,6 +288,8 @@ nav ul li:hover::after {
     }
 }
 
+/* ------- About ------- */
+
 #About {
     background-color: #f09b9b;
     padding: 24px;
@@ -359,21 +361,22 @@ nav ul li:hover::after {
     }
 }
 
-
-
-
-
-
+/* ------- Skills ------- */
 
 #Skills {
-    height: 80vh;
     background-color: #e1a3a3;
+    text-align: center;
+    padding: 24px;
 }
+
+/* ------- Projects ------- */
 
 #Projects {
     height: 80vh;
     background-color: #f09b9b;
 }
+
+/* ------- Contact ------- */
 
 #Contact {
     height: 80vh;
