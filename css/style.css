@@ -221,7 +221,8 @@ nav ul li:hover::after {
         line-height: 32px;
     }
 
-    p {
+    .col-2 p {
+        font-size: 2.4rem;
         text-align: left;
         padding-top: 24px;
     }
