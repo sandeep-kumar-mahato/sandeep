@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
 
 * {
     margin: 0;
@@ -258,21 +259,22 @@ nav ul li:hover::after {
 
 #About{
     background-color: #f09b9b;
-    height: 80vh;
+    height: 100vh;
     padding: 24px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
 }
 #About h1{
     font-size: 57px;
+    margin-top: 3rem;
 }
 
 .container2{
-    margin: 2rem;
     display: flex;
+    padding: 24px;
 }
 .sec-1{
-    padding: 24px;
+    padding: 2rem;
     letter-spacing: 1px;
     line-height: 30px;
 }
@@ -285,7 +287,45 @@ nav ul li:hover::after {
 .sec-1 p{
     font-size: 24px;
     margin-top: 5rem;
+    font-family: 'Nunito', sans-serif;
 }
+
+@media (max-width: 1000px){
+    #About{
+        height: 100vh;
+    }
+
+    #About h1{
+        font-size: 45px;
+    }
+    
+    .container2{
+        margin: 0rem;
+        display: block;
+    }
+    .sec-1{
+        padding: 0px;
+    }
+    
+    .sec-1 h2{
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+    
+    .sec-1 p{
+        font-size: 24px;
+        margin-top: -1rem;
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
 
 #Skills{
     height: 80vh;
