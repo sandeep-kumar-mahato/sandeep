@@ -259,7 +259,6 @@ nav ul li:hover::after {
 
 #About{
     background-color: #f09b9b;
-    height: 100vh;
     padding: 24px;
     text-align: center;
     font-family: 'Great Vibes', cursive;
@@ -293,17 +292,19 @@ nav ul li:hover::after {
 
 @media (max-width: 1000px){
     #About{
-        height: 100vh;
+        padding: 0;
     }
 
     #About h1{
         font-size: 45px;
-        margin-top: -10px;
+        margin: 0;
+        padding: 15px;
     }
     
     .container2{
-        margin-top: -2rem;
+        margin: 0;
         display: block;
+        padding: 1px 45px;
     }
     .sec-1{
         padding: 0px;
