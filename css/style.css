@@ -292,7 +292,7 @@ nav ul li:hover::after {
 
 @media (max-width: 1000px){
     #About{
-        padding: 0;
+        padding: 12px;
     }
 
     #About h1{
