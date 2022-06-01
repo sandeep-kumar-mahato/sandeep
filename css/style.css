@@ -275,7 +275,7 @@ nav ul li:hover::after {
 }
 .sec-1{
     padding: 2rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
     line-height: 30px;
 }
 
@@ -297,10 +297,11 @@ nav ul li:hover::after {
 
     #About h1{
         font-size: 45px;
+        margin-top: -10px;
     }
     
     .container2{
-        margin: 0rem;
+        margin-top: -2rem;
         display: block;
     }
     .sec-1{
@@ -318,6 +319,7 @@ nav ul li:hover::after {
         font-family: 'Nunito', sans-serif;
         letter-spacing: 0;
         font-size: 15px;
+        line-height: 25px;
     }
 }
 
