@@ -143,10 +143,7 @@ nav ul li:hover::after {
     margin: 0 1rem;
 }
 
-.social-media i:hover {
-    background: linear-gradient(45deg, rgb(255, 166, 0), rgb(128, 26, 0));
-    color: #fff;
-}
+
 
 .social-media a {
     text-decoration: none;
