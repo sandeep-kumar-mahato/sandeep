@@ -369,44 +369,10 @@ nav ul li:hover::after {
     text-align: center;
     padding: 24px;
 }
-
-.course{
-    padding: 1rem;
-}
-
-.polaroid {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-}
-
-.polaroid img{
-    height: 150px;
-    width: auto;
-}
-
-.Label {
-    padding: 10px;
-}
-
-.course {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 @media(max-width:1000px) {
     #Skills {
         padding: 10px;
     }
-
-    .polaroid {
-        margin-bottom: 24px;
-        padding-bottom: 24px;
-    }
-
-    .Label {
-        padding: 0px;
-    }
-
     .course {
         display: block;
         margin: 10px;
