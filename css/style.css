@@ -21,6 +21,10 @@ body {
     display: flex;
     align-items: center;
     padding: 0px 5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .logo img {
@@ -366,11 +370,18 @@ nav ul li:hover::after {
     padding: 24px;
 }
 
+.course{
+    padding: 1rem;
+}
+
 .polaroid {
-    width: 100%;
-    margin: 6rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+}
+
+.polaroid img{
+    height: 150px;
+    width: auto;
 }
 
 .Label {
@@ -388,8 +399,6 @@ nav ul li:hover::after {
     }
 
     .polaroid {
-        width: auto;
-        margin: 0;
         margin-bottom: 24px;
         padding-bottom: 24px;
     }
