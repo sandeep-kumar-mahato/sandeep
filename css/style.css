@@ -369,10 +369,29 @@ nav ul li:hover::after {
     text-align: center;
     padding: 24px;
 }
+
+.course{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.course img {
+    width: 150px;
+}
+
+.icon-card {
+    background-color: transparent;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #a17a69;
+    padding: 10px;
+    margin: 20px;
+}
+
 @media(max-width:1000px) {
     #Skills {
         padding: 10px;
     }
+
     .course {
         display: block;
         margin: 10px;
