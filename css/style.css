@@ -411,7 +411,6 @@ nav ul li:hover::after {
 /* ------- Projects ------- */
 
 #Projects {
-    height: 80vh;
     background-color: #f09b9b;
 }
 
@@ -471,7 +470,44 @@ nav ul li:hover::after {
 
 .project-link:hover {
     color: rgb(0, 0, 0);
+}
 
+@media(max-width:1000px) {
+
+    #projects {
+        text-align: center;
+    }
+
+    .projects-container {
+        display: block;
+        margin-left: 3rem;
+        padding: 0;
+    }
+
+    .project-container {
+        width: 18rem;
+    }
+
+    .project-pic {
+        margin-top: 1rem;
+        width: 80%;
+        height: 60%;
+    }
+
+    .project-details {
+        text-align: left;
+        margin-left: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .project-card {
+        margin: 0;
+        padding: 0;
+    }
+
+    .projects-title {
+        font-size: 32px;
+    }
 }
 
 /* ------- Contact ------- */
@@ -509,6 +545,7 @@ nav ul li:hover::after {
 .contact-form-container textarea {
     min-height: 6.25rem;
     font-size: 14px;
+    font-family: 'Nunito', sans-serif;
 }
 
 .contact-form-container .input-field {
@@ -516,6 +553,7 @@ nav ul li:hover::after {
     background-color: #d7d7da;
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: 'Nunito', sans-serif;
     border-radius: 5px;
     border: none;
     border: 2px #9da4e8;
@@ -532,6 +570,7 @@ nav ul li:hover::after {
 .submit-btn {
     background-color: #d7d7da;
     width: 100%;
+    font-family: 'Nunito', sans-serif;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -556,4 +595,21 @@ footer {
 .fab {
     font-size: 32px;
     padding: 24px 12px;
+}
+
+@media(max-width:1000px) {
+    footer {
+        text-align: center;
+        padding: 8px;
+        background-color: #df9696;
+    }
+
+    .fab {
+        font-size: 32px;
+        padding: 12px 4px;
+    }
+
+    .contact h2 {
+        font-size: 28px;
+    }
 }
