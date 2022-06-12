@@ -553,6 +553,7 @@ nav ul li:hover::after {
     background-color: #d7d7da;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 1rem;
     font-family: 'Nunito', sans-serif;
     border-radius: 5px;
     border: none;
