@@ -370,7 +370,7 @@ nav ul li:hover::after {
     text-align: center;
     padding: 24px;
     font-family: 'Great Vibes', cursive;
-    font-size: 24px;
+    font-size: 40px;
 }
 
 .course {
@@ -431,9 +431,9 @@ nav ul li:hover::after {
 
 .projects-title {
     font-family: 'Great Vibes', cursive;
-    font-size: 42px;
+    font-size: 52px;
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 2rem 0;
 }
 
 .project-container {
@@ -519,9 +519,9 @@ nav ul li:hover::after {
 
 .contact h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 42px;
+    font-size: 52px;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .contact-form {
