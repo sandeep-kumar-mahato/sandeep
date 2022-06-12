@@ -477,7 +477,7 @@ nav ul li:hover::after {
 /* ------- Contact ------- */
 
 #Contact {
-    background-color: #c78e8e;
+    background-color: #df9696;
     padding-bottom: 1rem;
 }
 
@@ -549,6 +549,11 @@ nav ul li:hover::after {
 
 footer{
     text-align: center;
-    padding: 24px;
+    padding: 8px;
     background-color: #df9696;
+}
+
+.fab{
+    font-size: 32px;
+    padding: 24px 12px;
 }
