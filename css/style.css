@@ -614,4 +614,10 @@ footer {
     .contact h2 {
         font-size: 35px;
     }
+
+    .contact-form-container {
+        max-width: 20.75rem;
+        margin: 0 auto;
+        padding: 1rem;
+    }
 }
