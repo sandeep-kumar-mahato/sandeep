@@ -547,13 +547,13 @@ nav ul li:hover::after {
 }
 
 
-footer{
+footer {
     text-align: center;
     padding: 8px;
     background-color: #df9696;
 }
 
-.fab{
+.fab {
     font-size: 32px;
     padding: 24px 12px;
 }
