@@ -393,6 +393,7 @@ nav ul li:hover::after {
 @media(max-width:1000px) {
     #Skills {
         padding: 10px;
+        font-size: 20px;
     }
 
     .course {
@@ -611,6 +612,6 @@ footer {
     }
 
     .contact h2 {
-        font-size: 28px;
+        font-size: 35px;
     }
 }
