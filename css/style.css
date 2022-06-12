@@ -29,7 +29,7 @@ body {
 }
 
 .logo img {
-    height: 80px;
+    height: 100px;
 }
 
 nav {
@@ -366,7 +366,7 @@ nav ul li:hover::after {
 /* ------- Skills ------- */
 
 #Skills {
-    background-color: #e1a3a3;
+    background-color: #f09b9b;
     text-align: center;
     padding: 24px;
     font-family: 'Great Vibes', cursive;
