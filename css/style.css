@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #df9696;
 }
 
 .container {
@@ -513,9 +514,11 @@ nav ul li:hover::after {
 
 /* ------- Contact ------- */
 
-#Contact {
-    background-color: #df9696;
-    padding-bottom: 1rem;
+.contact-col {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 28rem;
 }
 
 .contact h2 {
@@ -525,48 +528,21 @@ nav ul li:hover::after {
     padding: 3rem;
 }
 
-.contact-form {
-    padding: 1rem;
-}
-
-.contact-form-container {
-    max-width: 40.75rem;
-    margin: 0 auto;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 0 3px 10px #a17a69;
-}
-
-.contact-form-container label {
-    line-height: 2.7em;
-    font-weight: 700;
-    color: #dbdef4;
-}
-
-.contact-form-container textarea {
-    min-height: 6.25rem;
-    font-size: 14px;
-    font-family: 'Nunito', sans-serif;
-}
-
-.contact-form-container .input-field {
+.contact-col input,
+.contact-col textarea {
     width: 100%;
-    background-color: #d7d7da;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 1rem;
     font-family: 'Nunito', sans-serif;
-    border-radius: 5px;
-    border: none;
-    border: 2px #9da4e8;
-    font-size: 0.875rem;
+    padding: 15px;
+    margin-bottom: 17px;
     outline: none;
-    margin-bottom: 1rem;
+    border: 1px solid #d7d7da;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #d7d7da;
 }
 
-.input-field::placeholder {
-    padding: 0.5rem;
-    color: #8f8f8f;
+.q{
+    font-family: 'Nunito', sans-serif;
 }
 
 .submit-btn {
@@ -587,6 +563,7 @@ nav ul li:hover::after {
     border-radius: 15px;
 }
 
+/* --------- footer ---------- */
 
 footer {
     text-align: center;
@@ -615,23 +592,7 @@ footer {
         font-size: 35px;
     }
 
-    .contact-form-container {
-        max-width: 20.75rem;
-        margin: 0 auto;
-        padding: 1rem;
+    .contact-col {
+        padding: 24px;
     }
-}
-
-.contact-col{
-    background-color: #9da4e8;
-    width: 50%;
-    padding: 24px;
-}
-
-.contact-col input, .contact-col textarea{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid #ccc;
 }
