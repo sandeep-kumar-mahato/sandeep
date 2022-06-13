@@ -237,11 +237,8 @@ nav ul li:hover::after {
     }
 
     .row {
-        padding: 15px;
-    }
-
-    #roww {
-        margin-top: 0rem;
+        display: block;
+        text-align: center;
     }
 
     .col-2 {
