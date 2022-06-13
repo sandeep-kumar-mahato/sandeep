@@ -15,7 +15,7 @@ body {
 .container {
     background: radial-gradient(#fff, #f09b9b);
     height: 100vh;
-   
+
 }
 
 .navbar {
@@ -27,7 +27,7 @@ body {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar .black{
+.navbar .black {
     background-color: transparent;
 }
 
@@ -539,7 +539,7 @@ nav ul li:hover::after {
     background-color: #d7d7da;
 }
 
-.q{
+.q {
     font-family: 'Nunito', sans-serif;
 }
 
