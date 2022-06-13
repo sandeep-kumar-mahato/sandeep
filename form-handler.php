@@ -1,6 +1,6 @@
 <?php
-$name = $_POST['sender-name'];
-$visitor_email = $_POST['sender-email'];
+$name = $_POST['name'];
+$visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 $email_from = 'contact@sandeepmahato.live';
