@@ -15,18 +15,20 @@ body {
 .container {
     background: radial-gradient(#fff, #f09b9b);
     height: 100vh;
-    padding: 24px;
+   
 }
 
 .navbar {
     display: flex;
     align-items: center;
     padding: 0px 5rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
+    position: fixed;
+    width: 100%;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .black{
+    background-color: #ce8989;
 }
 
 .logo img {
@@ -81,13 +83,12 @@ nav ul li:hover::after {
 .row {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     justify-content: space-around;
     padding: 48px;
 }
 
 #roww {
-    margin-top: 3rem;
+    padding-top: 10rem;
 }
 
 .front img {

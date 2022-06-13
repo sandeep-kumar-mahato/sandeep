@@ -6,6 +6,15 @@ function hidemenu() {
   navLinks.style.right = "-200px";
 }
 
+$(window).on("scroll",function(){
+  if($(window).scrollTop()) {
+    $('nav').addClass('black');
+  }
+  else{
+    $('nav').removeClass('black');
+  }
+})
+
 
 function sendMail() {
   var link = "mailto:sandeepkumarmahato712@gmail.com"
@@ -16,3 +25,4 @@ function sendMail() {
   
   window.location.href = link;
 }
+
