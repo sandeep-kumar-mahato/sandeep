@@ -200,6 +200,8 @@ label {
   hr {
     border: dotted #ffffff 5px;
     width: 10%;
+    border-bottom: none;
+    margin: 3rem auto 0;
   }
 
   /* Home Section */
