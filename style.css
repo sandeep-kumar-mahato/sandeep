@@ -231,26 +231,20 @@ label {
     color: #FDC8AA;
   }
 
-  .social-icons:hover {
-    color: #FFC4C4;
-  }
-
   /* about section */
 
   .heading {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 3% 0;
   }
 
-  .desc {
-    text-align: left;
-    line-height: 1.8;
-    word-spacing: 0.1rem;
-    padding: 0 24px;
+  .desc{
+    font-size: 0.8rem;
+    padding: 0 20px;
   }
 
   .desc2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: left;
     line-height: 1.8;
     word-spacing: 0.1rem;
@@ -265,10 +259,6 @@ label {
 
   .skill-col {
     margin-bottom: 3%;
-  }
-
-  .title {
-    margin-top: 1%;
   }
 
   /* Projects section */
@@ -286,43 +276,16 @@ label {
   /* Contact Section */
 
   form {
-    width: 50%;
-    margin: auto;
-    text-align: left;
-  }
-
-  label {
-    margin: 3% 0 1%;
-    font-size: 1.3rem;
-  }
-
-  .input1 {
-    background-color: transparent;
-    width: 100%;
-    border: 1px solid #FDC8AA;
-    border-radius: 5px;
-    padding: 0.5rem;
-    color: #FFC4C4;
-  }
-
-  .contact-me {
     width: 100%;
   }
 
   .footer {
+    padding: 3rem 0 0;
     background-color: #FDC8AA;
     color: #740021;
   }
 
-  .footer i {
-    color: #740021;
-  }
-
-  .footer i:hover {
-    color: #e40e4b;
-  }
-
   .copyright {
-    margin: 0;
+    font-size: 0.8rem;
   }
 }
