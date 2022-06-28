@@ -204,6 +204,7 @@ label {
     margin: 3rem auto 0;
   }
 
+  
   /* Home Section */
 
   .logo {
@@ -213,7 +214,7 @@ label {
   .profile-pic {
     float: none;
   }
-
+  
   .sub-heading {
     text-align: center;
     padding: 2% 0;
@@ -224,10 +225,14 @@ label {
   .check-it-out {
     width: 100%;
   }
-
+  
+  .icons{
+    text-align: center;
+  }
+  
   .social-icons {
-    margin: 1%;
-    padding: 1.5%;
+    margin: 7px;
+    padding: 0;
     color: #FDC8AA;
   }
 
