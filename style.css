@@ -185,7 +185,7 @@ label {
   margin: 0;
 }
 
-@media(max-width:900px) {
+@media(max-width:950px) {
 
   .container-fluid {
     padding: 2% 8%;
