@@ -130,10 +130,16 @@ hr {
 
 /* Projects section */
 
+.card-box {
+  display: flex;
+  flex-direction: row;
+  padding: 24px;
+}
+
 .card {
   background-color: #740021;
   box-shadow: 1px 1px 5px #FFC4C4;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
@@ -204,7 +210,7 @@ label {
     margin: 1rem auto 0;
   }
 
-  
+
   /* Home Section */
 
   .logo {
@@ -214,7 +220,7 @@ label {
   .profile-pic {
     float: none;
   }
-  
+
   .sub-heading {
     text-align: center;
     padding: 2% 0;
@@ -225,12 +231,13 @@ label {
   .check-it-out {
     width: 100%;
   }
-  
-  .icons{
+
+  .icons {
     text-align: center;
   }
-  
+
   .social-icons {
+    font-size: 1.5rem;
     margin: 7px;
     padding: 0;
     color: #FDC8AA;
@@ -239,17 +246,17 @@ label {
   /* about section */
 
   .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 3% 0;
   }
 
   .desc {
-    font-size: 1rem;
+    font-size: 0.7rem;
     padding: 0 20px;
   }
 
   .desc2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
     line-height: 1.8;
     word-spacing: 0.1rem;
@@ -268,13 +275,19 @@ label {
 
   /* Projects section */
 
+  .card-box {
+    display: block;
+    padding: 0;
+  }
+
   .card {
     width: 100%;
     margin: auto;
+    margin-top: 1rem;
   }
 
   .card-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 1% 1% 3%;
   }
 
@@ -282,6 +295,10 @@ label {
 
   form {
     width: 100%;
+  }
+
+  label{
+    font-size: 0.9rem;
   }
 
   .footer {
